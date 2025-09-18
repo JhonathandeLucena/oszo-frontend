@@ -1,1 +1,1 @@
-console.log('PacientesList.js placeholder');
+export default function PacientesList(){return <h2>Pacientes</h2>}
