@@ -117,3 +117,21 @@ export async function deleteConsulta(id) {
     method: "DELETE",
   });
 }
+
+export default {
+  getPacientes,
+  getPaciente,
+  createPaciente,
+  updatePaciente,
+  deletePaciente,
+  getProfissionais,
+  getProfissional,
+  createProfissional,
+  updateProfissional,
+  deleteProfissional,
+  getConsultas,
+  getConsulta,
+  createConsulta,
+  updateConsulta,
+  deleteConsulta,
+};
